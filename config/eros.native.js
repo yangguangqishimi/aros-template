@@ -1,11 +1,11 @@
 module.exports = {
-  'appName': 'zkShop',
+  'appName': 'aros-template-name',
   'appBoard': '/config/index.js',
   // android 监听全局事件homeBack 如果为true 安卓端需要自行调用router.finish方法来关闭应用
   'androidIsListenHomeBack': 'true',
   'version': {
-    'android': '1.0.1',
-    'iOS': '1.0.1'
+    'android': 'aros-template-version',
+    'iOS': 'aros-template-version'
   },
   'versionCode': {
     'android': '1',
@@ -18,7 +18,7 @@ module.exports = {
     'navItemColor': '#ffffff'
   },
   'url': {
-    'image': 'https://www.zlgcloud.com/v1/users/lfg/avatar',
+    'image': 'https://www.zlgcloud.com/v1/users/lfg/avatar'
     // 'bundleUpdate': 'https://www.zlgcloud.com/debug/app/solarApp/version.json',
   },
   'zipFolder': {
