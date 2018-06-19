@@ -91,6 +91,10 @@ dependencies {
     implementation 'com.alibaba.android:bindingx-core:1.0.1'
     implementation 'com.alibaba.android:bindingx_weex_plugin:1.0.2'
 
+    compile 'com.amap.api:search:5.5.0'
+    compile 'com.amap.api:map2d:5.2.0'
+    compile 'com.amap.api:location:3.6.1'
+    compile 'com.contrarywind:Android-PickerView:3.2.7'
     //plugin Moudle
 //    compile project(':ErosPluginAmap')
 }

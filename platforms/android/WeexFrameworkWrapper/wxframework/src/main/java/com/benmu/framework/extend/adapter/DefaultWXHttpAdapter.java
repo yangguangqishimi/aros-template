@@ -97,7 +97,6 @@ public class DefaultWXHttpAdapter implements IWXHttpAdapter {
                 @Override
                 public void run() {
                     doInterceptor(request, listener);
-
                 }
             });
         }

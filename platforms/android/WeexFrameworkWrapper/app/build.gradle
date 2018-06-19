@@ -106,10 +106,7 @@ dependencies {
     compile "com.android.support:support-v4:${PROJECT_SUPPORTLIBVERSION}"
 
     compile 'com.taobao.android.weex_inspection:protocol:1.1.4.1'
-    compile 'com.contrarywind:Android-PickerView:3.2.7'
-    compile 'com.amap.api:search:5.5.0'
-    compile 'com.amap.api:map2d:5.2.0'
-    compile 'com.amap.api:location:3.6.1'
+
 
     testCompile 'junit:junit:4.12'
     compile project(':wxframework')

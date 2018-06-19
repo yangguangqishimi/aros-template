@@ -1,6 +1,7 @@
 
 .temp
 *.zip
+*.rar
 dist
 JSBundles
 node_modules

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="com.zkcloud.zkShop">
+          package="com.lfg.weex">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -42,7 +42,7 @@
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:supportsRtl="true"
-            android:name="com.zkcloud.zkShop.App"
+            android:name="com.lfg.weex.App"
             android:theme="@style/AppTheme.NoActionBar"
             >
 
@@ -56,7 +56,7 @@
                 android:value="${UMENG_CHANNEL_VALUE}"/>
 
 
-        <activity android:name="com.zkcloud.zkShop.activity.MainActivity">
+        <activity android:name="com.lfg.weex.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
 
@@ -81,7 +81,7 @@
                 android:theme="@android:style/Theme.Light.NoTitleBar"/>
 
         <activity
-                android:name="com.zkcloud.zkShop.activity.SplashActivity"
+                android:name="com.lfg.weex.activity.SplashActivity"
                 android:theme="@style/FullscreenTheme"
                 >
             <intent-filter>
@@ -113,7 +113,7 @@
 
         <!--wxApi-->
         <activity
-                android:name="com.zkcloud.zkShop.wxapi.WXEntryActivity"
+                android:name="com.lfg.weex.wxapi.WXEntryActivity"
                 android:exported="true"
                 android:launchMode="singleTop"
                 android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
@@ -127,7 +127,7 @@
         </activity>
 
         <activity
-                android:name="com.zkcloud.zkShop.wxapi.WXPayEntryActivity"
+                android:name="com.lfg.weex.wxapi.WXPayEntryActivity"
                 android:exported="true"
                 android:launchMode="singleTop"/>
 
@@ -227,12 +227,12 @@
             </intent-filter>
         </receiver>
         <!-- 个推SDK配置结束 -->
-        <service android:name="com.zkcloud.zkShop.service.WebSocketService" android:enabled="true" android:exported="true"></service>
-        <receiver android:name="com.zkcloud.zkShop.broadcast.NotifictionBroadcastReceiver" android:exported="true" android:enabled="true"></receiver>
+        <service android:name="com.lfg.weex.service.WebSocketService" android:enabled="true" android:exported="true"></service>
+        <receiver android:name="com.lfg.weex.broadcast.NotifictionBroadcastReceiver" android:exported="true" android:enabled="true"></receiver>
 
 
         <provider
-            android:authorities="com.zkcloud.zkShop.fileprovider"
+            android:authorities="com.lfg.weex.fileprovider"
             android:name="android.support.v4.content.FileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
@@ -291,7 +291,7 @@
             android:screenOrientation="behind"
             android:windowSoftInputMode="adjustResize|stateHidden" >
         </activity>
-        <receiver android:name="com.zkcloud.zkShop.broadcast.SmsReceiver">
+        <receiver android:name="com.lfg.weex.broadcast.SmsReceiver">
             <intent-filter >
                 <action android:name="android.provider.Telephony.SMS_RECEIVED"></action>
             </intent-filter>

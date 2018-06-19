@@ -9,7 +9,6 @@
     <component name="bmrichtext">com.benmu.framework.extend.components.BMRich</component>
     <component name="bmspan">com.benmu.framework.extend.components.BMSpan</component>
     <component name="bmcalendar">com.benmu.framework.extend.components.BMCalendar</component>
-    <component name="bmchart">com.benmu.framework.extend.components.BMChart</component>
 
     <!--weex-module-->
     <module name="bmRouter">com.benmu.framework.extend.module.RouterModule</module>
@@ -43,4 +42,9 @@
     <component name="radialGradient">com.benmu.framework.extend.components.svg.component.WXSvgRadialGradient</component>
     <component name="circle">com.benmu.framework.extend.components.svg.component.WXSvgCircle</component>
 
+    <component name="weex-amap-marker">com.benmu.framework.extend.components.map.WXMapMarkerComponent</component>
+    <component name="weex-amap">com.benmu.framework.extend.components.map.WXMapViewComponent</component>
+    <component name="scroller-header">com.benmu.framework.extend.components.WXScrollerHeaderComponent</component>
+    <component name="picker">com.benmu.framework.extend.module.WXIOSPickerModule</component>
+    <module name="amap">com.benmu.framework.extend.module.WXMapModule</module>
 </app_config>
